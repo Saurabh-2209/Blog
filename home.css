@@ -1,0 +1,45 @@
+.jumbotron{
+    background-image: url('bgm.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.container{
+    margin-top: 40px;
+}
+img{
+    box-shadow: 2px 2px 10px grey;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.caption{
+    margin-top: 10px;
+    color: black;
+}
+.bold{
+    font-weight: bold;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.bg-4 { 
+    background-color: #e6dede;
+    color: rgb(27, 27, 27);
+  }
+  .Footer a{
+    color: black;
+    padding: 5px;
+}
+.icon a{
+    background-color: white;
+    border-radius: 50%;
+}
+.icon a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
